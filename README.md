@@ -19,3 +19,8 @@ go run hello.go
 go build hello.go
 ./hello
 ```
+
+## TODO
+* 基本構文をやる
+* Dockerfileを追加する
+
