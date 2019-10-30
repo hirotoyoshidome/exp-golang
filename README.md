@@ -25,12 +25,12 @@ go build hello.go
 * build
 
 ```
-docker build -t my_golang_div .
+docker build -t my_golang_div:latest .
 ```
 * exec
 
 ```
-docker run --rm -it my_go_dev:latest /bin/sh
+docker run --rm -it my_golang_dev:latest /bin/sh
 go run hello.go
 exit
 ```
