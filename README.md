@@ -1,5 +1,3 @@
-# practice_golang
-
 ## install
 
 ```
