@@ -130,5 +130,3 @@ func hello(str string) string{
 }
 
 // ↑戻り値の型、引数の型も明示する
-
-

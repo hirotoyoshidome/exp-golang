@@ -2,7 +2,7 @@
 * exec
 
 ```
-go run hello.go
+go run main.go
 ```
 
 * build
