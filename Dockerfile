@@ -1,5 +1,2 @@
-FROM golang:1.13.3-alpine3.10
-
-WORKDIR /var/src
-
-COPY . .
+FROM golang:1.19-rc-alpine3.15
+WORKDIR /var/golang

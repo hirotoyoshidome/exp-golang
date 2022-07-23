@@ -1,10 +1,4 @@
-## install
-
-```
-brew install go
-```
-
-## exec
+## Build
 * exec
 
 ```
@@ -20,15 +14,8 @@ go build hello.go
 
 ## Docker
 
-* build
-
 ```
-docker build -t my_golang_div:latest .
-```
-* exec
-
-```
-docker run --rm -it my_golang_dev:latest /bin/sh
-go run hello.go
-exit
+docker build -t mygolang .
+docker run --rm -it -d -v $(pwd):/var/golang --name mygolang mygolang:latest
+docker exec -it mygolang sh
 ```
