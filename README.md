@@ -8,8 +8,8 @@ go run hello.go
 * build
 
 ```
-go build hello.go
-./hello
+go build -o Hello hello.go
+./Hello
 ```
 
 ## Docker
